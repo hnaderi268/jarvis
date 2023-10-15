@@ -5,4 +5,4 @@ Simple GPT2 Chatbot.
 There are two modules: a web app written in Golang and a Python backend microservice for generating texts.
 
 # Run
-```docker compose up```
+Run ```docker compose up``` and open [localhost:8080](http://localhost:8080)
