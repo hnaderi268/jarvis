@@ -1,0 +1,7 @@
+services:
+  jarvis:
+    image: "hnaderi268/jarvis"
+    ports:
+      - "8080:8080"
+  gpt2:
+    image: "hnaderi268/gpt2"

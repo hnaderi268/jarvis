@@ -1,0 +1,5 @@
+huggingface-hub
+torch
+transformers~=4.34.0
+grpcio
+protobuf

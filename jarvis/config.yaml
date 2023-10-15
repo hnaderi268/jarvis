@@ -1,0 +1,13 @@
+server:
+  host: 0.0.0.0
+  port: 8080
+
+gpt2:
+  host: gpt2
+  port: 50050
+
+
+# For LOCAL DEV
+#gpt2:
+#  host: localhost
+#  port: 50050

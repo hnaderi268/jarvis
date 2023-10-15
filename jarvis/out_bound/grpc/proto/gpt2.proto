@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package gpt2;
+
+option go_package = "hnaderi268/gpt2";
+
+service ChatService{
+  rpc GenerateText(TextRequest) returns (TextResponse);
+}
+
+message TextRequest{
+  string text = 1;
+  int32 max_length=2;
+  int32 num_return_sequences=3;
+}
+
+message TextResponse{
+  repeated string text = 1;
+}
