@@ -13,10 +13,18 @@ Deployment:
 You can deploy both images into some pods using kubernetes. Here for example I have created a ```compose.yaml``` whcih you can run with ```docker compose up```.
 
 
-Points of improvement:
-Add tracing id for user logs.
-Add tls/ssl for production use.
-Create a session for each user and keep history of their requests.
-gpt2 model properties are hardcoded in Jarvis.
+# Points of improvement
 
-I did not do the optional db storing part, in a production en I would use a persistent volume to create and maintain a database or use some database as a service..
+
+Add tracing id for user logs.
+
+
+Add tls/ssl for production use.
+
+
+Create a session for each user and keep history of their requests.
+
+
+gpt2 model properties are hardcoded.
+
+I did not do the optional db storing part, in a production env I would use a persistent volume to create and maintain a database or use some database as a service..
